@@ -1,9 +1,5 @@
 ## 0.0.4
 
-*   Version bump to 0.0.4.
-
-## 0.0.3
-
 *   **New Feature:** Added Automatic Background Detection (`StatusbarColorAuto` and `StatusbarColorCapturer`) to automatically adjust status bar text/icon brightness based on the background color.
 *   **Performance:** Implemented raw RGBA byte extraction for instant, zero-stutter background detection.
 *   **Documentation:** Rewrote `README.md` to be more comprehensive and modern.
