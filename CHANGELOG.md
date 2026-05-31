@@ -1,3 +1,7 @@
+## 0.0.4
+
+*   Version bump to 0.0.4.
+
 ## 0.0.3
 
 *   **New Feature:** Added Automatic Background Detection (`StatusbarColorAuto` and `StatusbarColorCapturer`) to automatically adjust status bar text/icon brightness based on the background color.
@@ -11,4 +15,3 @@
 *   **Modern iOS APIs:** Refactored iOS native code to avoid private APIs (App Store safe) and support scene-based UIWindow retrieval.
 *   **Web Support:** Added Flutter Web platform support to manipulate the browser's `theme-color` meta tag dynamically.
 *   **Android:** Maintained full support for Android V2 Embedding.
-*   **Renamed Package:** Renamed from `flutter_statusbarcolor_ns` to `statusbar_color`.
