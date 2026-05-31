@@ -5,7 +5,7 @@
   "packages": [
     {
       "name": "statusbar_color",
-      "version": "0.0.1",
+      "version": "0.0.3",
       "dependencies": [
         "flutter",
         "flutter_web_plugins",

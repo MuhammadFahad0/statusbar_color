@@ -1,7 +1,8 @@
 name: statusbar_color
 description: A package can help you to change your flutter app's statusbar's color or navigationbar's color programmatically.
-version: 0.0.1
-homepage: https://github.com/Sameerkash/flutter_statusbarcolor
+version: 0.0.3
+homepage: https://github.com/MuhammadFahad0/statusbar_color
+repository: https://github.com/MuhammadFahad0/statusbar_color
 
 dependencies:
   flutter:

@@ -21,7 +21,7 @@ Add the dependency to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  statusbar_color: ^0.0.1
+  statusbar_color: ^0.0.3
 ```
 
 Import the package in your Dart code:
