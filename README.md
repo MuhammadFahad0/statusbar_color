@@ -69,7 +69,7 @@ Color? navigationbarColor = await FlutterStatusbarcolor.getNavigationBarColor();
 
 ### Automatic Status Bar Brightness (Auto Background Detection)
 
-Similar to the `statusbarz` package, `statusbar_color` can automatically detect the background color behind the status bar and adjust the icon brightness accordingly. Our implementation is **highly optimized**, using raw `RGBA` byte inspection rather than heavy PNG compression, guaranteeing 0 stuttering during route transitions.
+`statusbar_color` can automatically detect the background color behind the status bar and adjust the icon brightness accordingly. Our implementation is **highly optimized**, using raw `RGBA` byte inspection rather than heavy PNG compression, guaranteeing 0 stuttering during route transitions.
 
 1. Wrap your `MaterialApp` with `StatusbarColorCapturer`.
 2. Add `StatusbarColorAuto.instance.observer` to your `navigatorObservers`.
