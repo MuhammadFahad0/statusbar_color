@@ -1,3 +1,7 @@
+## 0.0.5
+
+*   **SDK Target Bump:** Bumped Android target and compile SDK to version 36 (Android 16).
+
 ## 0.0.4
 
 *   **New Feature:** Added Automatic Background Detection (`StatusbarColorAuto` and `StatusbarColorCapturer`) to automatically adjust status bar text/icon brightness based on the background color.
