@@ -1,1 +1,0 @@
- C:\\flutter_plugin\\statusbar_color\\example\\.dart_tool\\flutter_build\\233577d2f6f4b33fb63c6c03ee32ccce\\dart_build_result.json: 
