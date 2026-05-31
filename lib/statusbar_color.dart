@@ -3,6 +3,10 @@
 
 import 'dart:async';
 
+export 'src/statusbar_color_auto.dart';
+export 'src/statusbar_color_capturer.dart';
+export 'src/statusbar_color_observer.dart';
+
 import 'package:flutter/services.dart';
 
 class FlutterStatusbarcolor {

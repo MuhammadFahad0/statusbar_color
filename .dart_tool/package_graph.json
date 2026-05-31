@@ -14,6 +14,11 @@
       "devDependencies": []
     },
     {
+      "name": "web",
+      "version": "1.1.1",
+      "dependencies": []
+    },
+    {
       "name": "flutter_web_plugins",
       "version": "0.0.0",
       "dependencies": [
@@ -62,11 +67,6 @@
     {
       "name": "characters",
       "version": "1.4.1",
-      "dependencies": []
-    },
-    {
-      "name": "web",
-      "version": "1.1.1",
       "dependencies": []
     }
   ],

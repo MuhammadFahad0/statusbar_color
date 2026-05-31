@@ -72,8 +72,10 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: DefaultTabController(
+    return StatusbarColorCapturer(
+      child: MaterialApp(
+        navigatorObservers: [StatusbarColorAuto.instance.observer],
+        home: DefaultTabController(
         length: 2,
         child: Scaffold(
           appBar: AppBar(
@@ -190,6 +192,34 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
                           WidgetStateProperty.all<Color>(_randomStatusColor),
                     ),
                   ),
+                  Padding(padding: const EdgeInsets.all(10.0)),
+                  Builder(builder: (context) {
+                    return ElevatedButton(
+                      onPressed: () {
+                        Navigator.of(context).push(MaterialPageRoute(
+                          builder: (_) => Scaffold(
+                            backgroundColor: Colors.white,
+                            appBar: AppBar(title: Text('White Background', style: TextStyle(color: Colors.black)), backgroundColor: Colors.white, iconTheme: IconThemeData(color: Colors.black)),
+                          ),
+                        ));
+                      },
+                      child: Text('Push White Page (Auto Dark Statusbar)'),
+                    );
+                  }),
+                  Padding(padding: const EdgeInsets.all(10.0)),
+                  Builder(builder: (context) {
+                    return ElevatedButton(
+                      onPressed: () {
+                        Navigator.of(context).push(MaterialPageRoute(
+                          builder: (_) => Scaffold(
+                            backgroundColor: Colors.black,
+                            appBar: AppBar(title: Text('Black Background')),
+                          ),
+                        ));
+                      },
+                      child: Text('Push Black Page (Auto Light Statusbar)'),
+                    );
+                  }),
                 ],
               ),
               Column(
@@ -303,6 +333,6 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
           ),
         ),
       ),
-    );
+    ));
   }
 }
