@@ -3,10 +3,6 @@
 [![pub package](https://img.shields.io/pub/v/statusbar_color?style=for-the-badge)](https://pub.dev/packages/statusbar_color)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-A modernized Flutter plugin to programmatically change your app's status bar and navigation bar colors.
-
-This is a completely revamped, null-safe version of the original `flutter_statusbarcolor` package, brought up to date with modern Flutter requirements. It includes safe iOS scene window implementations, Flutter Web support, and full Android V2 embedding compatibility.
-
 ## ✨ Features
 
 - **Null Safety**: 100% migrated to Dart null safety.
