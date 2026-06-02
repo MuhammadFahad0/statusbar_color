@@ -1,3 +1,7 @@
+## 0.0.6
+
+*   Updated documentation to remove description paragraphs.
+
 ## 0.0.5
 
 *   **SDK Target Bump:** Bumped Android target and compile SDK to version 36 (Android 16).
